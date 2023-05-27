@@ -1,0 +1,27 @@
+{
+    "editor.fontSize": 18,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "pyflakes",
+    "python.linting.pylintEnabled": false,
+    //"python.linting.flake8Path": "flake8",
+    "python.linting.enabled": true,
+    "python.formatting.provider": "none",
+    //"python.formatting.blackArgs": ["--line-length", "110"],
+    "python.linting.flake8Args": [
+        "--max-line-length=110",
+        "--ignore=W293,E302,E266,W391,E402,E122,E123,E226,E251,E303,W291,E116,E502,E501"
+    ],
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.pylintEnabled": false,
+    // "python.linting.enabled": true,
+    // "python.formatting.provider": "black",
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=88",
+    //     "--ignore=W293,E302,E266,W391,E402,E226,W291,E116,E502,E501",
+    // ],
+    //C:\Users\Wegagen user\.virtualenvs\jobportal-Fy4Klq8m
+}
